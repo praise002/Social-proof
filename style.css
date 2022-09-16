@@ -14,3 +14,45 @@ body{
     font-family: 'League Spartan', sans-serif;
     font-size: 1.5rem;
 }
+
+.container{
+    display: grid;
+    margin: auto;
+    padding: 20px;
+    justify-items: center;
+    text-align: center;
+}
+
+/* Intro */
+
+.intro__heading{
+    width: 250px;
+    color: var(--very-dark-magenta);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.paragraph{
+    color: var(--dark-grayish-magenta);
+    font-weight: 400;
+    line-height: 1.5;
+    width: 275px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+/* Reviews */
+
+.review{
+    background: var(--light-grayish-magenta);
+    padding: 15px 50px;
+    margin-bottom: 10px;
+}
+
+.review__title {
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-weight: 500;
+    color: var(--very-dark-magenta);
+}
+
